@@ -1,0 +1,60 @@
+{
+  // EDITOR
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.75,
+  "editor.colorDecorators": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "color-highlight.markerType": "dot-before",
+  "terminal.integrated.fontSize": 16,
+  "editor.bracketPairColorization.enabled": true,
+  "breadcrumbs.filePath": "off",
+  "outline.icons": false,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "workbench.editor.tabSizing": "shrink",
+  "explorer.compactFolders": false,
+  "html.autoClosingTags": false,
+  // PRETTIER
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "auto",
+  // FORMATAÇÃO PADRÃO POR TIPO DE ARQUIVO
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.iconTheme": "symbols",
+  // LIVE SERVER
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  // OUTROS
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.startupEditor": "none",
+  "editor.stickyScroll.enabled": false,
+  "git.enableSmartCommit": true,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "html": false,
+    "css": false
+  },
+  "workbench.colorTheme": "Omni"
+}
