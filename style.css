@@ -52,7 +52,7 @@ a {
 }
 
 #container {
-  max-width: 360px;
+  max-width: 588px;
   margin-inline: auto;
   padding-top: 56px;
   padding-inline: 24px;
@@ -184,4 +184,14 @@ footer {
 
 footer a {
   text-decoration: underline;
+}
+
+@media (min-width: 900px) {
+  :root {
+    --bg-url: url('./assets/bg-desktop.jpg');
+  }
+
+  .light {
+    --bg-url: url('./assets/bg-desktop-light.jpg');
+  }
 }
