@@ -18,10 +18,6 @@
   --switch-bg-url: url('./assets/Sun.svg');
 }
 
-.light #switch button {
-  transform: translateX(100%);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -99,6 +95,10 @@ a {
 
 #switch:hover button {
   box-shadow: 0 0 0 8px var(--highlight-color);
+}
+
+.light #switch button {
+  transform: translateX(100%);
 }
 
 #switch span {
