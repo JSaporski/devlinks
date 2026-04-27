@@ -89,8 +89,8 @@ a {
   border-radius: 50%;
   cursor: pointer;
   transition:
-    box-shadow 0.4s,
-    transform 0.4s;
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
 }
 
 #switch:hover button {
@@ -129,8 +129,8 @@ a {
   border-radius: 8px;
   backdrop-filter: blur(4px);
   transition:
-    background 0.2s,
-    border 0.2s;
+    background 0.2s ease,
+    border 0.2s ease;
 }
 
 .links a:hover {
@@ -162,8 +162,8 @@ a {
   background: var(--highlight-color);
   border-radius: 50%;
   transition:
-    width 0.4s,
-    height 0.4s;
+    width 0.4s ease,
+    height 0.4s ease;
 }
 
 #social-links li a:hover::before {
