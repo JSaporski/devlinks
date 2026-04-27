@@ -47,13 +47,13 @@
   "workbench.startupEditor": "none",
   "editor.stickyScroll.enabled": false,
   "git.enableSmartCommit": true,
-  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
-    "markdown": false,
+    "markdown": true,
     "scminput": false,
-    "html": false,
+    "html": true,
     "css": false
   },
   "workbench.colorTheme": "Omni"
